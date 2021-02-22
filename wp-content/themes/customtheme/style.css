@@ -15,12 +15,12 @@ Text Domain : customtheme
 */
 /* Custom background and text color for bootstrap jumbotron */
 .gradient-bg {
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2ca4e0+0,2ae0d4+30,7db9e8+100 */
-     background: #2ca4e0; /* Old browsers */
-     background: -moz-linear-gradient(left,  #2ca4e0 0%, #2ae0d4 30%, #7db9e8 100%); /* FF3.6-15 */
-     background: -webkit-linear-gradient(left,  #2ca4e0 0%,#2ae0d4 30%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
-     background: linear-gradient(to right,  #2ca4e0 0%,#2ae0d4 30%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ca4e0', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 */
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2da8e5+0,2cb4ea+1,24c8e5+29,24c8e5+77,7db9e8+100 */
+    background: rgb(45,168,229); /* Old browsers */
+    background: -moz-linear-gradient(left, rgb(58, 176, 240) 0%, rgba(44,180,234,1) 1%, rgba(36,200,229,1) 29%, rgba(36,200,229,1) 77%, rgba(125,185,232,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(45,168,229,1) 0%,rgba(44,180,234,1) 1%,rgba(36,200,229,1) 29%,rgba(36,200,229,1) 77%,rgba(125,185,232,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(45,168,229,1) 0%,rgba(44,180,234,1) 1%,rgba(36,200,229,1) 29%,rgba(36,200,229,1) 77%,rgba(125,185,232,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2da8e5', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 */
  }
 .margin-neg-20{
     margin-top: -20px;
@@ -36,4 +36,9 @@ Text Domain : customtheme
 .main-custom-nav .navbar-nav > li >a:hover{
     background-color: transparent;
     color:powderblue;
+}
+
+.main-custom-nav .icon-bar{
+    color: white;
+    background-color: white;
 }
